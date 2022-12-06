@@ -25,7 +25,7 @@ El proyecto cuenta con un pequeño e-commerce para poder comprar artículos bás
 ### Front End: 
 HTML, CSS, JavaScript, React, Redux, Ant Desing.
 
-###Back End:
+### Back End:
 Node.js, Express, Json web token authentication, Nodemailer, Sequelize.
 
 ### Database:
@@ -36,12 +36,12 @@ PostgreSQL
 
 1- Dentro de la carpeta "api" crear un archivo llamado: .env que tiene la siguiente forma:
 
-DB_USER=postgresuser
-DB_PASSWORD=postgrespassword
-DB_HOST=localhost
+DB_USER=postgresuser<br>
+DB_PASSWORD=postgrespassword<br>
+DB_HOST=localhost<br>
 
-MAILING_EMAIL=findmeahome2022@gmail.com
-MAILING_PASSWORD=hbtttqlykibdasja
+MAILING_EMAIL=findmeahome2022@gmail.com<br>
+MAILING_PASSWORD=hbtttqlykibdasja<br>
 
 Debe reemplazar postgres user y postgres password con sus propias credenciales para conectarse a la base de datos de postgres. Github ignorará este archivo, ya que contiene información confidencial (las credenciales).
 
